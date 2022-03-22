@@ -1,0 +1,9 @@
+:root {
+    --blue: #2980b9;
+    --green: #27ae60;
+    --orange: #f39c12;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}

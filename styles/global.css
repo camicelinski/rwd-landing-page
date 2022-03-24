@@ -1,9 +1,38 @@
 :root {
-    --blue: #2980b9;
-    --green: #27ae60;
-    --orange: #f39c12;
+    --nav: #2c2c2c;
+    --download: #5db2ff;
+    --copyright: #000000;
 }
 
 html {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: #2996f8;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    min-width: 225px;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: .1em;   
+    color: white;
+    background-color: #37ebed;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #37eaed91;
 }

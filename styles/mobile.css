@@ -1,0 +1,111 @@
+.header {
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -80px;
+    color: white;
+}
+
+.header__container {
+    background-color: var(--nav);    
+    position: relative; 
+}
+
+.logo__header {
+    margin: auto 15px;
+    position: absolute;
+    top: 20px;
+}
+
+.nav__hamburger {
+    width: 35px;
+    height: 35px;
+    margin: 25px 15px;
+    display: inline-block;
+    float: right;
+    border: 0;
+    border-top: 3px solid #ffffff;
+    background: transparent;
+    position: relative;
+    transition: 0.3s transform linear;    
+}
+
+.nav__hamburger::before,
+.nav__hamburger::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 3px solid #ffffff;
+    transform: translateY(8px);
+}
+
+.nav__hamburger::after {
+    transform: translateY(20px);
+    transition: 0.3s transform linear;
+}
+
+.nav__toggler:checked + .nav__hamburger {
+    transform: rotate(45deg) translateY(5px);
+    border: none;
+}
+
+.nav__toggler:checked + .nav__hamburger::after {
+    transform: rotate(-90deg) translateX(-8px);
+}
+
+.nav__toggler {
+    display: none;
+}
+
+.nav__toggler:checked ~ .nav__list {
+    display: block;
+}
+
+.nav__list {
+    padding-top: 65px;
+    padding-bottom: 20px;
+    display: none;    
+}
+
+.nav__link {
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.hero__info {
+    padding: 40px 20px;
+}
+
+.hero__header {
+    font-size: 2.2rem;
+    letter-spacing: .15rem;
+    line-height: 2.5rem;
+}
+
+.hero__text {
+    padding-top: 25px;
+    padding-bottom: 60px;
+    font-size: 1.2rem;    
+}
+
+.hero__image {
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__png {
+    width: 95%;
+}

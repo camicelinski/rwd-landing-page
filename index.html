@@ -18,42 +18,48 @@
 
     <header class="header" id="header">
 
-        <section class="header__container container">
-            <h1 class="logo__header">
-                <img class="logo__image" src="./images/logo.png" alt="logo">
-            </h1>
-            <nav class="nav">               
-                <ul class="nav__links">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./#features" class="nav__link">Features</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./#pricing" class="nav__link">Pricing</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Blog</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Pages</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+        <section class="header__container">
+            <div class="container">
+                <h1 class="logo__header">
+                    <img class="logo__image" src="./images/logo.png" alt="logo">
+                </h1>
+                <nav class="nav clearfix">
+                    <input class="nav__toggler" id="toggler" type="checkbox">
+                    <label class="nav__hamburger" for="toggler"></label>                 
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./#features" class="nav__link">Features</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./#pricing" class="nav__link">Pricing</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Blog</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Pages</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </section>
 
-        <section class="hero container" id="hero">
-            <div class="hero__info">
-                <h1 class="hero__header">Promote Your App With Applab</h1>
-                <p class="hero__text">Get more users to promote your app with this template</p>
-                <button class="cta-button">Get Start Now</button>
-            </div>
-            <div class="hero__image">
-                <img class="hero__png" src="./images/phone.png" alt="phone">
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__info">
+                    <h1 class="hero__header">Promote Your App With Applab</h1>
+                    <p class="hero__text">Get more users to promote your app with this template</p>
+                    <button class="cta-button">Get Start Now</button>
+                </div>
+                <div class="hero__image">
+                    <img class="hero__png" src="./images/phone.png" alt="phone">
+                </div>
             </div>
         </section>
 
@@ -63,7 +69,7 @@
 
         <section class="features" id="features">
             <div class="container features__header-container">
-                <h3 class="features__header">Features</h3>
+                <h3 class="features__header">Save your time to using applab</h3>
             </div>
             <ul class="container features__container">
                 <li class="feature">

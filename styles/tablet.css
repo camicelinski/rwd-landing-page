@@ -1,0 +1,80 @@
+.header {    
+    background-size: 100vw 85%;
+    background-position-x: 0;
+    background-position-y: 15px;
+}
+
+.logo__header {
+    margin: auto 25px;    
+    top: 10px;
+}
+
+.nav__hamburger {
+    width: 30px;
+    height: 30px;
+    margin: 15px 40px;    
+    border-top: 2px solid #ffffff;
+}
+
+.nav__hamburger::before,
+.nav__hamburger::after {
+    border-top: 2px solid #ffffff;
+    transform: translateY(9px);
+}
+
+.nav__hamburger::after {
+    transform: translateY(20px);
+    transition: 0.3s transform linear;
+}
+
+.nav__toggler:checked + .nav__hamburger {
+    transform: rotate(45deg) translateY(5px);
+    border: none;
+}
+
+.nav__toggler:checked + .nav__hamburger::after {
+    transform: rotate(-90deg) translateX(-8px);
+}
+
+.nav__link {
+    height: 80%;
+    padding: 10px 25px;   
+    font-size: .9rem;    
+}
+
+.hero .container {
+    display: flex;
+}
+
+.hero__info {
+    padding: 130px 105px;
+    width: 60%;
+}
+
+.hero__header {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.hero__text {
+    padding-top: 15px;
+    padding-bottom: 45px;
+    letter-spacing: .03rem;       
+}
+
+.cta-button {
+    min-width: 190px;
+    padding: 1rem;
+    font-size: 1em;
+    letter-spacing: .1em;   
+}
+
+.hero__image {
+    width: 40%;
+    margin-top: 120px;
+    margin-left: -90px;
+}
+
+.hero__png {
+    width: 90%;
+}

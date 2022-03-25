@@ -4,12 +4,24 @@
 }
 
 .header__container {
-    padding-top: 25px;
+    padding-top: 5px;
     background-color: transparent; 
 }
 
+.header__container .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .logo__header {
+    position: static;
     margin: 25px 5px;
+}
+
+.nav {
+    display: inline-block;
+    width: 80%;
 }
 
 .nav__hamburger {
@@ -18,9 +30,8 @@
 
 .nav__list {
     padding: 0;
-    display: block;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .nav__link {
@@ -28,8 +39,40 @@
     padding: 15px;
 }
 
+.nav__item--children::after {
+    font-size: 1rem;
+    transform: rotate(90deg) translateX(16px) translateY(10px);
+}
+
+.nav__item--children:hover .nav__list--dropdown {    
+    background-color: transparent;
+    margin: 10px 15px;
+    position: absolute;
+}
+
+.nav__link--dropdown {
+    padding: 5px 5px 5px 0;
+}
+
+.nav__item--children:hover > .nav__list--dropdown > .nav__item--dropdown {
+    background-color: transparent;
+}
+
+.cta-button--download {
+    min-width: 100px;
+    padding: 12px 20px;
+    font-size: .9rem;
+    letter-spacing: normal;
+    display: inline-block;
+    background-color: #42b3fa;
+}
+
+.cta-button--download:hover {
+    background-color: #37ebed;
+}
+
 .hero__info {
-    padding: 250px 0px;
+    padding: 230px 0px;
     width: 80%;
 }
 
@@ -45,7 +88,7 @@
 
 .hero__image {
     width: 50%;
-    margin-top: 155px;
+    margin-top: 140px;
     margin-right: -50px;
 }
 

@@ -72,9 +72,8 @@
 
 .nav__link {
     display: inline-block;
-    width: 300px;
     height: 100%;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-decoration: none;
     color: white;
     transition: 0.3s ease-in-out;
@@ -82,6 +81,40 @@
 
 .nav__link:hover {
     text-decoration: underline;
+}
+
+.nav__list--dropdown {
+    display: none;
+}
+
+.nav__item--children::after {
+    content: '>';
+    font-family: monospace;
+    font-size: 1rem;    
+    position: absolute;
+    transform: rotate(90deg) translateX(14px) translateY(5px);
+    color: #fff;
+}
+
+.nav__item--children:hover .nav__list--dropdown {
+    display: block;
+    background-color: var(--nav);
+}
+
+.nav__item--children:hover::after {
+    content: '';
+}
+
+.nav__link--dropdown {
+    padding-left: 2.5rem;
+}
+
+.nav__item--children:hover > .nav__list--dropdown > .nav__item--dropdown {
+    background-color: #3b3b3b;
+}
+
+.cta-button--download {
+    display: none;
 }
 
 .hero__info {

@@ -109,3 +109,23 @@
 .feature__title {
     max-width: 250px;
 }
+
+.product__container {
+    margin: 105px auto;
+}
+
+.product__article {
+    margin: 0 25px;
+    width: 45%;
+}
+
+.product__header {    
+    margin: 20px auto; 
+    font-size: 1.9rem;  
+    line-height: 2.5rem;
+}
+
+.product__figure {
+    margin: 0 25px;
+    width: 45%;
+}

@@ -117,3 +117,37 @@
     max-width: 300px;
     font-size: 1.5rem;
 }
+
+.product__container {
+    margin: 65px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.product__article {
+    margin: 0 25px;
+    width: 36%;
+}
+
+.product__header {    
+    margin: 10px auto;   
+    text-align: left;
+}
+
+.product__text {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.9rem;
+}
+
+.cta-button--product {
+    margin: 20px 0;
+}
+
+.product__figure {
+    margin: 0 25px;
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

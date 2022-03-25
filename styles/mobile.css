@@ -22,7 +22,6 @@
     width: 35px;
     height: 35px;
     margin: 25px 15px;
-    display: inline-block;
     float: right;
     border: 0;
     border-top: 3px solid #ffffff;
@@ -141,4 +140,50 @@
 
 .hero__png {
     width: 95%;
+}
+
+.features__header {
+    margin: 15px auto;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.features__container, 
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature {
+    margin: 15px;
+}
+
+.feature__icon {
+    width: 130px;
+    height: 130px;
+    margin: 15px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #0382f6, #5cb1fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__icon--orange {
+    background: linear-gradient(90deg, #fdae5c, #fdaa86);
+}
+
+.feature__icon--green {
+    background: linear-gradient(90deg, #2dc272, #37ef8d);
+}
+
+.feature__img {
+    width: 47%;  
+}
+
+.feature__title {
+    max-width: 320px;
+    font-size: 1.9rem;
+    text-align: center;
 }

@@ -86,3 +86,34 @@
 .hero__png {
     width: 90%;
 }
+
+.features__header {
+    margin: 45px auto;
+    max-width: 400px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.features__container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.feature {
+    margin: 15px;
+    width: 25%;
+}
+
+.feature__icon {
+    width: 110px;
+    height: 110px;
+    margin: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.feature__title {
+    max-width: 300px;
+    font-size: 1.5rem;
+}

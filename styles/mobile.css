@@ -212,3 +212,46 @@
 .product__figure {
     margin: 20px;
 }
+
+.testimonial {
+    min-height: 580px;
+    margin: 105px 0;
+    background-image:
+        linear-gradient(rgba(107, 184, 253, .85), rgba(107, 184, 253, .85)),                 
+        url(../images/banner/testimonial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    color: #fff;
+    text-align: center;
+    border: 1px solid rgba(107, 184, 253, .8);
+}
+
+.testimonial__header {
+    margin: 110px auto 40px;
+    padding: 0 50px;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+}
+
+.testimonial__text {
+    margin: 0 0 35px;
+    padding: 0 30px;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.fa-star {
+    color: #ffd35a;
+    font-size: 1.4rem;
+}
+
+.testimonial__author {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.testimonial__author:hover {
+    text-decoration: underline;
+}

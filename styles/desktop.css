@@ -129,3 +129,20 @@
     margin: 0 25px;
     width: 45%;
 }
+
+.testimonial {
+    min-height: 710px;
+    margin: 125px 0;   
+    background-position: 50%;
+}
+
+.testimonial__header {
+    margin: 205px auto 85px;
+    max-width: 400px;
+    font-size: 2.9rem;
+    line-height: 3.4rem;
+}
+
+.testimonial__text {
+    margin: 0 0 20px;
+}

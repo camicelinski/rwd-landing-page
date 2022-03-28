@@ -170,3 +170,49 @@
     font-size: 1.2rem;
     line-height: 2.2rem;
 }
+
+.pricing {
+    margin-top: 105px;
+}
+
+.pricing__header {    
+    margin: -10px auto 20px;
+    font-size: 2.2rem;
+}
+
+.pricing__text {
+    margin: 0 auto 10px;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.pricing__plans {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__plan {
+    width: 27%;
+    margin: 40px 0;
+}
+
+.plan__price,
+.plan__type {
+    padding: 17px 20px;
+    font-size: 1.2rem;
+}
+
+.plan__text li {
+    margin: 37px 25px;
+    font-size: 1rem;
+}
+
+.cta-button--blue {
+    min-width: 120px;
+    margin: 0 0 41px;
+    padding: .6rem;
+    font-size: .9rem;
+}

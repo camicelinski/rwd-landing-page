@@ -202,3 +202,50 @@
 .app__store {
     margin: 0 5px;
 }
+
+.footer__nav {
+    padding: 90px 30px 122px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__applab {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 37%;
+}
+
+.footer__text {
+    margin: 30px 20px 43px 0;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.footer__media {
+    margin-right: 7px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+
+.footer__links {
+    margin: 20px 0;
+    padding: 0 0 0 30px;
+    width: 21%;
+}
+
+.footer__header {
+    margin: 0 0 40px;
+    font-size: 1.4rem;
+}
+
+.footer__item {
+    margin: 15px 0;
+}
+
+.footer__link {
+    font-size: .8rem;
+}

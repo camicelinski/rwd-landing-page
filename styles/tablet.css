@@ -216,3 +216,30 @@
     padding: .6rem;
     font-size: .9rem;
 }
+
+.app {
+    margin-top: 105px;
+}
+
+.app__header-container {
+    padding: 175px 105px 35px;
+}
+
+.app__header {
+    font-size: 2.8rem;
+    text-align: left;
+    line-height: 3.4rem;
+}
+
+.app__stores {
+    display: flex;
+    justify-content: center;
+}
+
+.app__store {
+    margin: 0 5px 155px;
+}
+
+.app__store img {
+    height: 50px;
+}

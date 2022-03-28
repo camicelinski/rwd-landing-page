@@ -331,3 +331,32 @@
     background-color: var(--download);
     color: #fff;
 }
+
+.app {
+    margin-top: 65px;
+    background-color: var(--download);
+}
+
+.app__header-container {
+    padding: 120px 30px 15px;
+    color: #fff;
+}
+
+.app__header {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 2.8rem;
+}
+
+.app__stores {
+    display: flex;
+    justify-content: center;
+}
+
+.app__store {
+    margin: 0 5px 120px;
+}
+
+.app__store img {
+    height: 60px;
+}

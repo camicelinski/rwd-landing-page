@@ -177,3 +177,28 @@
     padding: 17px 30px;
     font-size: 1.2rem;
 }
+
+.app {
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__header-container {
+    padding: 165px 45px 175px;
+}
+
+.app__header {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+}
+
+.app__stores {
+    margin: auto 45px;
+    align-items: center;
+}
+
+.app__store {
+    margin: 0 5px;
+}
